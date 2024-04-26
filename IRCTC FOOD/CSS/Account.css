@@ -1,0 +1,174 @@
+body{
+    background: url(../source/Accound/bgimg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.profile{
+    scale: 0.80;
+    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.029) ,rgba(120, 120, 120, 0.141));
+    width: 500px;
+    opacity: 1;
+    border-radius: 30px;
+    position:absolute;
+    top: 1px;
+    left: 30vw;
+
+}
+img{
+    background-color: rgba(240, 248, 255, 0.153);
+    border-radius: 100%;
+    border: none;
+    transform: scale(17%);
+    position: relative;
+    top: -150px;
+    left: -5px;
+    
+    
+}
+.logo-img{
+    filter: brightness(250%);
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Grenze:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Platypi:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.log-in{
+    font-family: "Grenze", serif;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.806);
+    text-align: center;
+    position: relative;
+    top: -58vh;
+    font-size: 2rem;
+    
+}
+
+.input1{
+    display: grid;
+    justify-content: center;
+    position: absolute;
+    top: 29vh;
+    width: 70%;
+}
+
+.username{
+    background-color: #ffffff34;
+    width: 120%;
+    border-radius: 20px;
+    height: 40px;
+    border: none;
+    margin-left: 25px;
+    font-size: 20px;
+    box-shadow: 1px 10px 10px rgb(39, 39, 39);
+}
+
+.username::placeholder{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.658);
+    font-family: monospace;
+}
+
+
+.user-name-h2{
+    color: #ffffff;
+    text-shadow: 5px 8px 10px rgb(18, 18, 18);
+    font-family: serif;
+    font-size: 18px;
+        
+}
+    
+ul,li{
+    display:block;
+}
+
+.input2{
+    display: grid;
+    justify-content: center;
+    position: absolute;
+    top: 49vh;
+    width: 70%;
+}
+
+.PNR{
+    background-color: #ffffff34;
+    width: 120%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 25px;
+    font-size: 20px;
+    box-shadow: 1px 10px 10px rgb(39, 39, 39);
+}
+
+.PNR::placeholder{
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.658);
+    font-family: monospace;
+}
+
+
+.PNR-h2{
+    color: #ffffff;
+    text-shadow: 5px 8px 10px rgba(18, 18, 18, 0.836);
+    font-family: serif;
+    font-size: 18px;
+        
+} 
+    
+.check-box{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: -110px;
+    left: 42px;
+    letter-spacing: 6px;
+    
+}
+#input{
+    transform: scale(2);
+    width: 50px;
+    border: none;
+    filter: brightness(70%);
+    
+}
+
+#input:hover{
+    cursor: pointer;
+}
+
+.login{
+    font-size: 20px;
+    font-family: serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,700%);
+    width: 100px;
+    height: 5vh;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.414);
+}
+.login:hover{
+    cursor: pointer;
+}
+
+.go-back{
+    font-size: 25px;
+    letter-spacing:5px;
+    text-decoration: none;
+    color: rgba(21, 14, 14, 0.554);
+    position: relative;
+    top: -20px;
+    left: 9vw;
+
+}     
+
+.go-back:hover{
+    color: black;
+}
