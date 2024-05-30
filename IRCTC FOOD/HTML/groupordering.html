@@ -66,41 +66,41 @@
             <div class="whole-details">
                 <div class="details">
                     <label>Name </label>
-                    <input type="text" placeholder="Enter your Name" class="input">
+                    <input type="text" placeholder="Enter your Name" id="customer-name" class="input">
                 </div>
 
                 <div class="details">
                     <label>Mobile No</label>
-                    <input type="tel" placeholder="Enter your number" class="input">
+                    <input type="tel" placeholder="Enter your number" id="customer-number" class="input">
                 </div>
 
                 <div class="details">
                     <label>E-mail </label>
-                    <input type="email" placeholder="Enter your E-mail" class="input">
+                    <input type="email" placeholder="Enter your E-mail" id="customer-mail" class="input">
                 </div>
 
                 <div class="details">
                     <label>Number of pasanger</label>
-                    <input type="tel" placeholder="Enter the counding" class="input">
+                    <input type="tel" placeholder="Enter the counding" id="customer-count" class="input">
                 </div>
 
                 <div class="details">
                     <label>PNR</label>
-                    <input type="tel" placeholder="Enter your PNR" class="input">
+                    <input type="tel" placeholder="Enter your PNR" maxlength="5" id="customer-pnr" class="input">
                 </div>
 
                 <div class="details">
                     <label>Message</label>
-                    <input type="text" maxlength="500" placeholder="Enter your Message" class="message">
+                    <input type="text" maxlength="200" placeholder="Enter your Message" id="customer-reviwe" class="message">
                 </div>
 
                 <div id="checkbox">
-                    <input type="checkbox" class="checkbox">
+                    <input type="checkbox" id="checkbox" class="checkbox">
                     <p>I am a travel agent</p>
                 </div>
 
                 <div class="button">
-                    <button type="submit" class="details-submit"><i>Submit</i></button>
+                    <button type="submit" class="details-submit" onclick="Submit()"><i>Submit</i></button>
                 </div>
             </div>
             
@@ -143,10 +143,10 @@
             <h2 id="footerh2">IRCTC eCatering</h2>
             <h5 id="footerh5">Get restaurant food delivered right at your seat.</h5>
             <div class="footerimg">
-                <a href="#">
+                <a href="https://www.apple.com/app-store/">
                     <img src="../source/Downlodeapp/app-store-download-h99.png" class="footerimg">
                 </a>
-                <a href="#">
+                <a href="https://play.google.com/store/games?device=windows">
                     <img src="../source/Downlodeapp/play-store-download-h99.png" class="footerimg">
                 </a>
     
@@ -194,5 +194,7 @@
  
  <div class="footer-mail">Copyright © 2024-www.ecatering.irctc.co.in. All Rights Reserved.</div>
 </footer>
+
+<script src="../Java script/grouborder.js"></script>
 </body>
 </html>

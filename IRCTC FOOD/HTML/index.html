@@ -38,9 +38,9 @@
     <div class="info">
         <h2 class="h2">Get Restarent Food Deliverd Right At Your Seat</h2>
         <ul>
-            <li><input type="search" placeholder=" &#9758;          Search Train Or Station to Explore"></li>
-            <li><input class="lsls" type="tel"placeholder="  &#9758;         Enter the PNR to Order" ></li>
-            <li><button type="submit" style="margin-top: -5px;">Submit</button></li>
+            <li><input type="search" id="mainstation" maxlength="20" placeholder=" &#9758;          Search Train Or Station to Explore" ></li>
+            <li><input class="lsls" type="tel" id="pnrnumber" maxlength="5" placeholder="  &#9758;         Enter the PNR to Order" ></li>
+            <li><button type="submit" style="margin-top: -5px;cursor: pointer;" onclick="submit()">Submit</button></li>
         </ul>
         
     </div>
@@ -565,5 +565,6 @@
  
  <div class="footer-mail">Copyright © 2024-www.ecatering.irctc.co.in. All Rights Reserved.</div>
 </footer>
+<script src="../Java script/index.js"></script>
 </body>
 </html>
