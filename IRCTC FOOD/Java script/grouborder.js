@@ -7,7 +7,7 @@ var customorreviwe=document.getElementById("customer-reviwe");
 var checkbox=true;
 
 function Submit(){
-    var cname=customorname.Value;
+    var cname=customorname.value;
     var cmobile=customormobile.value;
     var cmail=customormail.value;
     var cnum=customorseatnum.value;
